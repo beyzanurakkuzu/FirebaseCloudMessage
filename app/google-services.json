@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "791091580388",
+    "project_id": "fir-cloudmessageapp-ace35",
+    "storage_bucket": "fir-cloudmessageapp-ace35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791091580388:android:62cf9322dce8d1046b0bf1",
+        "android_client_info": {
+          "package_name": "com.beyzaakkuzu.firebasecloudmessageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791091580388-rt5tno8kkq6rk1d5imndlgcg0bijie3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq5Zkn2MHZ66UoGInkx0Gq0TT4F3uqHeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791091580388-rt5tno8kkq6rk1d5imndlgcg0bijie3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

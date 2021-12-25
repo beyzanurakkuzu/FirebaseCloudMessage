@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FireBaseCloudMessageApp</string>
+    <string name="button">Send</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="enter_token">Enter Token</string>
+    <string name="enter_title">Enter Title</string>
+
+</resources>
