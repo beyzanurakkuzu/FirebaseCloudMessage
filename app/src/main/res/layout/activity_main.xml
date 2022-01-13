@@ -24,24 +24,27 @@
         android:hint="@string/enter_message"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:onClick="btnSend"
+
         app:layout_constraintEnd_toStartOf="@+id/btnSend"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btnSend"/>
+
     <EditText
         android:id="@+id/etToken"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:autofillHints="message"
         android:ems="10"
         android:hint="@string/enter_token"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnSend"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etMessage"
-        android:visibility="invisible"
-        android:autofillHints="token" />
+        app:layout_constraintVertical_bias="0.037" />
 
     <EditText
         android:id="@+id/etTitle"
